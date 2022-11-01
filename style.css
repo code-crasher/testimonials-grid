@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600:wght@700&display=swap');
+
 :root{
 --clr-primary-200: hsl(263, 55%, 52%);
 --clr-primary-300: hsl(217, 19%, 35%);
@@ -25,13 +27,14 @@
     margin:0;
 }
 body{
+    font-family: 'Barlow Semi Condensed', sans-serif;;
     font-size: 13px;
     line-height: 1.5;
     background: var(--clr-neutral-100);
 }
 h3,
 h6{
-    font-weight: 700;
+    font-weight: 600;
 }
 p{
     font-weight: 500;
@@ -63,6 +66,7 @@ p{
 .card__four p:nth-child(1){
     color:var(--clr-neutral-200);
     margin-bottom: 0.75;
+    font-size: 16px;
 }
 .card__one p:nth-child(2),
 .card__two p:nth-child(2),
@@ -81,6 +85,7 @@ p{
 .card__five p:nth-child(1){
     color:var(--clr-primary-400);
     margin-bottom: 0.75em;
+    font-size: 16px;
 }
 .card__three p:nth-child(2),
 .card__five p:nth-child(2){
